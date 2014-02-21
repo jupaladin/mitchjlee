@@ -1,4 +1,9 @@
 var server = require("./server"),
-    router = require("./router");
+    router = require("./router"),
+    requestHandlers = require("./requestHandlers");
 
-server.start(router.route);
+var handle = {
+  "/": requestHandlers.index
+};
+
+server.start(router.route, handle);
