@@ -2,6 +2,6 @@
   "name": "MitchJLee",
   "version": "0.0.1",
   "dependencies": {
-    "jade": "~1.1.5"
+    "jade": "~1.1.5",
   }
 }
