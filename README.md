@@ -11,7 +11,7 @@ I'm a firm believer in the importance of performant websites. Many a study has s
 
 A lot of the optimization simply came from inlining immediately used CSS and JS above and below the HTML, respectively. There's also some SVG mixed in to avoid loading extra images and [tiny png](https://tinypng.com/) compression for the one image that I do load. I thought about going so far as to integrate my app with CloudFlare, but then decided that was a bit much for my static site. Plus, PageSpeed tells me I did a pretty good job:
 
-![Site Performance](https://dl.dropboxusercontent.com/u/1212917/mitchjlee_pagespeed.png)
+![Site Performance](https://s3.amazonaws.com/mitchjlee/assets/mitchjlee_pagespeed.png)
 
 I'll be the first to admit that the code you see here is neither well organized nor easily maintainable. However, it suits my needs given the limited scope of the project.
 
