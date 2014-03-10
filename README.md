@@ -38,7 +38,7 @@ For this app, I specifically avoided frameworks like `Express` for the sole reas
 
 ##Usage
 
-1. Make sure all dependencies are installed by running `node install`
+1. Make sure all dependencies are installed by running `npm install`
 2. Start up the node server by running `node index.js`
 3. Navigate to `localhost:8888` and enjoy
 
